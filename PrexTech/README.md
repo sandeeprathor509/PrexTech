@@ -30,7 +30,7 @@ and if a user wants to run the website for reward user then run `rewardTestNG.xm
 
 ### How to get the test Report###
 Under the test-output, there is a file named as TestReport.html. For sampling adding a screenshot, which shows how it look like
-<img width="1432" alt="image" src="https://user-images.githubusercontent.com/19299218/173318427-285d94f8-1f35-4061-86c2-37199002f2b2.png">
+<img width="1429" alt="image" src="https://user-images.githubusercontent.com/19299218/173319907-d1491bd5-9192-4308-a713-38d5a6a8edfd.png">
 
 
 ### References
