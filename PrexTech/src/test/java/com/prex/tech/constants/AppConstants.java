@@ -1,0 +1,10 @@
+package com.prex.tech.constants;
+
+import lombok.Data;
+import org.springframework.stereotype.Component;
+
+@Component
+@Data
+public class AppConstants {
+    private String name;
+}

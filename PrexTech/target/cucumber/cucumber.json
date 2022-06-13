@@ -1,0 +1,1123 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5449320000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.launchTheBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-13T08:48:04.993Z",
+        "line": 7,
+        "name": "Login as the provided user and verify the dashboard url according to the user",
+        "description": "",
+        "id": "testing-authorization-of-user-roles-and-groups;login-as-the-provided-user-and-verify-the-dashboard-url-according-to-the-user",
+        "after": [
+          {
+            "result": {
+              "duration": 2181000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.addScreenshotsToReport(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 102509000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 745804000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.enterTheUsernameAsAndPasswordAs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10029143000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate the dashboard URL according to the logged in user",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.validateDashboardURL()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Authorization"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4183674000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.launchTheBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-13T08:48:21.393Z",
+        "line": 11,
+        "name": "Login as the provided user and verify the page section displayed according to the user",
+        "description": "",
+        "id": "testing-authorization-of-user-roles-and-groups;login-as-the-provided-user-and-verify-the-page-section-displayed-according-to-the-user",
+        "after": [
+          {
+            "result": {
+              "duration": 138000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.addScreenshotsToReport(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 105530000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 729716000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.enterTheUsernameAsAndPasswordAs()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10437041000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Validate the page section display according to the user",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.pageSection()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Authorization"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4593175000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.launchTheBrowser()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-13T08:48:36.862Z",
+        "line": 15,
+        "name": "Login as the provided user and try to alter through API and verify the response",
+        "description": "",
+        "id": "testing-authorization-of-user-roles-and-groups;login-as-the-provided-user-and-try-to-alter-through-api-and-verify-the-response",
+        "after": [
+          {
+            "result": {
+              "duration": 239000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.addScreenshotsToReport(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 105156000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2472026000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Login through the API",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.loginAPI()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1114230000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Validate the site accessibility of the dashboard after altering the api",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.siteAccessibility()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Authorization"
+          }
+        ]
+      }
+    ],
+    "name": "Testing authorization of user roles and groups",
+    "description": "",
+    "id": "testing-authorization-of-user-roles-and-groups",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/Authorization.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Authorization",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4550423000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.launchTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 689704000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.enterTheUsernameAsAndPasswordAs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-13T08:48:45.155Z",
+        "line": 8,
+        "name": "Verify if the user has valid permission to upload the bulk list",
+        "description": "",
+        "id": "upload-a-file-in-bulk-list;verify-if-the-user-has-valid-permission-to-upload-the-bulk-list",
+        "after": [
+          {
+            "result": {
+              "duration": 152000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.addScreenshotsToReport(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 99722000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10050058000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate that bulk list option is visible to the user",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.BulkList.bulkListOptionVisibility()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Bulklist"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4079843000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.launchTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 743206000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.enterTheUsernameAsAndPasswordAs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-13T08:49:00.558Z",
+        "line": 11,
+        "name": "Upload a file and validate the visibility in the uploaded files",
+        "description": "",
+        "id": "upload-a-file-in-bulk-list;upload-a-file-and-validate-the-visibility-in-the-uploaded-files",
+        "after": [
+          {
+            "result": {
+              "duration": 143000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.addScreenshotsToReport(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 106964000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10185444000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on the bulk list option",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.BulkList.clickBulkListOption()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191278000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Upload a file through upload option",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.BulkList.uploadFile()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Bulklist"
+          }
+        ]
+      }
+    ],
+    "name": "Upload a file in bulk list",
+    "description": "",
+    "id": "upload-a-file-in-bulk-list",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/BulkList.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Bulklist",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4352424000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.launchTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 903902000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.enterTheUsernameAsAndPasswordAs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10634244000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the create new reward button",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.clickCreateNewBtn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-13T08:49:15.876Z",
+        "line": 9,
+        "name": "After user clicks on the create new reward, validate the basic information on the page",
+        "description": "",
+        "id": "creating-a-reward;after-user-clicks-on-the-create-new-reward--validate-the-basic-information-on-the-page",
+        "after": [
+          {
+            "result": {
+              "duration": 120000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.addScreenshotsToReport(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 116344000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 744589000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Verify the text on the create new reward screen",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.verifyRewardScreenText()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Reward"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4126234000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.launchTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 713601000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.enterTheUsernameAsAndPasswordAs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10624561000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the create new reward button",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.clickCreateNewBtn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-13T08:49:32.645Z",
+        "line": 12,
+        "name": "Validate the error messages if user forgot to fill out imp information",
+        "description": "",
+        "id": "creating-a-reward;validate-the-error-messages-if-user-forgot-to-fill-out-imp-information",
+        "after": [
+          {
+            "result": {
+              "duration": 173000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.addScreenshotsToReport(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 151958000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 421318000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on the next button",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.clickNextBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138688000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Validate the validation error message for the name",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.validateErrMsg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Reward"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4207765000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.launchTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 669200000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.enterTheUsernameAsAndPasswordAs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10621514000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the create new reward button",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.clickCreateNewBtn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-13T08:49:48.834Z",
+        "line": 16,
+        "name": "Validate the date validation error message",
+        "description": "",
+        "id": "creating-a-reward;validate-the-date-validation-error-message",
+        "after": [
+          {
+            "result": {
+              "duration": 166000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.addScreenshotsToReport(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 109955000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 575230000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Enter the name in reward details page",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.nameInRewardDetailSection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 227509000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on the next button",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.clickNextBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109926000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click on the next button",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.clickNextBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72513000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate the date error message on the mechanics page",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.mechanicValidationErrorMsg()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Reward"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3862826000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.launchTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 548017000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.enterTheUsernameAsAndPasswordAs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10606757000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the create new reward button",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.clickCreateNewBtn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-13T08:50:05.443Z",
+        "line": 23,
+        "name": "Fill the reward form with the basic details",
+        "description": "",
+        "id": "creating-a-reward;fill-the-reward-form-with-the-basic-details",
+        "after": [
+          {
+            "result": {
+              "duration": 150000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.addScreenshotsToReport(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 109237000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 680313000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Enter the name in reward details page",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.nameInRewardDetailSection()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 216382000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Click on the next button",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.clickNextBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21713606000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Fill up the start time and end time",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.fillTime(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "StartTime",
+                  "04"
+                ]
+              },
+              {
+                "cells": [
+                  "EndTime",
+                  "05"
+                ]
+              },
+              {
+                "cells": [
+                  "StartDay",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "EndDay",
+                  "13"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 159602000,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click on the next button",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.clickNextBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 83528000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "Submit the reward values",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.submitRewardValues()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Reward"
+          },
+          {
+            "name": "@Authorization"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4458355000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch the browser",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.launchTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 673020000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the username and password",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.LoginHook.enterTheUsernameAsAndPasswordAs()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10564526000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the create new reward button",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.clickCreateNewBtn()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-13T08:50:43.433Z",
+        "line": 34,
+        "name": "Validate the created user is being displayed in the reward list or not",
+        "description": "",
+        "id": "creating-a-reward;validate-the-created-user-is-being-displayed-in-the-reward-list-or-not",
+        "after": [
+          {
+            "result": {
+              "duration": 170000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.addScreenshotsToReport(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 170142000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.DriverHook.killDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70696941000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Search for the created merchant name in the reward list",
+            "match": {
+              "location": "com.prex.tech.stepdefinitions.web.RewardHook.searchForPatient()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@Reward"
+          }
+        ]
+      }
+    ],
+    "name": "Creating a reward",
+    "description": "",
+    "id": "creating-a-reward",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/web/RewardCreation.feature",
+    "tags": [
+      {
+        "name": "@Regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@Reward",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 13
+        }
+      }
+    ]
+  }
+]
