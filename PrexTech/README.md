@@ -28,6 +28,11 @@ and if a user wants to run the website for reward user then run `rewardTestNG.xm
 3. Other alternative, through command line user can run the following command in the terminal like
 `mvn clean test -DsuiteXmlFile=adminTestNG.xml` or `mvn clean test -DsuiteXmlFile=rewardTestNG.xml`
 
+### How to get the test Report###
+Under the test-output, there is a file named as TestReport.html. For sampling adding a screenshot, which shows how it look like
+<img width="1432" alt="image" src="https://user-images.githubusercontent.com/19299218/173318427-285d94f8-1f35-4061-86c2-37199002f2b2.png">
+
+
 ### References
 
 * lombok: https://www.baeldung.com/intro-to-project-lombok
