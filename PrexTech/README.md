@@ -1,4 +1,4 @@
-# TestRunner #
+# PrexTech Automation Framework #
 
 A generic BDD test automation framework that supports WEB and rest assured.
 
